@@ -149,7 +149,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 
-#from sklearn.metrics import make_scorer, accuracy_score 
+from sklearn.metrics import make_scorer, accuracy_score 
 #from sklearn.model_selection import GridSearchCV
 
 features = ["Pclass", "Sex", "Age", "Embarked", "Fare", "FamSize", "IsAlone", "Title"]
